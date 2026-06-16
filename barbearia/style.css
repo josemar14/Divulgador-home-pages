@@ -22,6 +22,10 @@ body{
     color:var(--white);
     overflow-x:hidden;
     line-height:1.6;
+
+    /* Efeito de carregamento suave */
+    opacity:0;
+    transition:opacity .5s ease;
 }
 
 /* =========================
