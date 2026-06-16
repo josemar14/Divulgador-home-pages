@@ -1,0 +1,19 @@
+portfolio-sites/
+│
+├── barbearia/
+│   ├── index.html
+│   ├── style.css
+│   ├── script.js
+│   └── assets/
+│
+├── lanchonete/
+│   ├── index.html
+│   ├── style.css
+│   ├── script.js
+│   └── assets/
+│
+└── clinica/
+    ├── index.html
+    ├── style.css
+    ├── script.js
+    └── assets/
