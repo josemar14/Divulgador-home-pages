@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Maka Digital | Landing Pages Profissionais</title>
+
+    <meta name="description"
+          content="Landing pages profissionais para barbearias, clínicas e lanchonetes.">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+          rel="stylesheet">
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            font-family:'Poppins',sans-serif;
+            background:#0f0f0f;
+            color:#fff;
+        }
+
+        header{
+            text-align:center;
+            padding:80px 20px;
+            background:linear-gradient(135deg,#111,#222);
+        }
+
+        header h1{
+            font-size:3rem;
+            color:#d4af37;
+        }
+
+        header p{
+            margin-top:15px;
+            color:#ccc;
+            max-width:700px;
+            margin-left:auto;
+            margin-right:auto;
+        }
+
+        .container{
+            width:90%;
+            max-width:1200px;
+            margin:auto;
+            padding:60px 0;
+        }
+
+        .grid{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+            gap:30px;
+        }
+
+        .card{
+            background:#181818;
+            border-radius:20px;
+            overflow:hidden;
+            transition:.3s;
+            border:1px solid rgba(255,255,255,.05);
+        }
+
+        .card:hover{
+            transform:translateY(-8px);
+            border-color:#d4af37;
+        }
+
+        .card img{
+            width:100%;
+            height:220px;
+            object-fit:cover;
+        }
+
+        .content{
+            padding:25px;
+        }
+
+        .content h2{
+            margin-bottom:10px;
+        }
+
+        .content p{
+            color:#bbb;
+            margin-bottom:20px;
+        }
+
+        .btn{
+            display:inline-block;
+            background:#d4af37;
+            color:#000;
+            text-decoration:none;
+            padding:12px 22px;
+            border-radius:50px;
+            font-weight:600;
+        }
+
+        .btn:hover{
+            opacity:.9;
+        }
+
+        footer{
+            text-align:center;
+            padding:30px;
+            border-top:1px solid rgba(255,255,255,.08);
+            color:#999;
+        }
+
+        @media(max-width:768px){
+
+            header h1{
+                font-size:2.2rem;
+            }
+
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+
+    <h1>Maka Digital</h1>
+
+    <p>
+        Landing Pages profissionais para pequenos negócios.
+        Transformamos visitas em clientes através do Google,
+        WhatsApp e redes sociais.
+    </p>
+
+</header>
+
+<section class="container">
+
+    <div class="grid">
+
+        <div class="card">
+
+            <img src="https://images.unsplash.com/photo-1622287162716-f311baa1a2b8?q=80&w=1200"
+                 alt="Barbearia">
+
+            <div class="content">
+
+                <h2>✂️ Barbearia Premium</h2>
+
+                <p>
+                    Site moderno com WhatsApp, galeria e Google Maps.
+                </p>
+
+                <a href="./barbearia/"
+                   class="btn">
+                    Ver Demo
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="card">
+
+            <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=1200"
+                 alt="Lanchonete">
+
+            <div class="content">
+
+                <h2>🍔 Lanchonete Premium</h2>
+
+                <p>
+                    Cardápio digital e pedidos pelo WhatsApp.
+                </p>
+
+                <a href="./lanchonete/"
+                   class="btn">
+                    Ver Demo
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="card">
+
+            <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=1200"
+                 alt="Clínica">
+
+            <div class="content">
+
+                <h2>🏥 Clínica Premium</h2>
+
+                <p>
+                    Agendamento online e presença profissional.
+                </p>
+
+                <a href="./clinica/"
+                   class="btn">
+                    Ver Demo
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+
+    © 2026 Maka Digital - Todos os direitos reservados.
+
+</footer>
+
+</body>
+</html>
