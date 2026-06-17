@@ -375,3 +375,30 @@ footer{
     }
 
 }
+/* Badge das avaliações */
+
+.review-badge{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    background:var(--green);
+    color:white;
+    padding:6px 12px;
+    border-radius:20px;
+    font-size:.85rem;
+    font-weight:600;
+    margin-bottom:12px;
+}
+
+/* Animações */
+
+.fade{
+    opacity:0;
+    transform:translateY(30px);
+    transition:all .8s ease;
+}
+
+.fade.show{
+    opacity:1;
+    transform:translateY(0);
+}
